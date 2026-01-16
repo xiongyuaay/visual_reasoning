@@ -1,0 +1,23 @@
+[project]
+name = "visualreasoning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.12.0",
+    "deepspeed>=0.15.4",
+    "httpx[socks]>=0.28.1",
+    "jinja2>=3.1.6",
+    "openai>=2.8.1",
+    "pdf2image>=1.17.0",
+    "playwright>=1.56.0",
+    "qwen-vl-utils>=0.0.14",
+    "setuptools>=75.0.0",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.57.3",
+    "trl>=0.26.2",
+    "weasyprint>=67.0",
+]
